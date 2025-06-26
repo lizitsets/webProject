@@ -1,0 +1,43 @@
+.booking {
+  padding: 3rem 2rem;
+  max-width: 500px;
+  margin: auto;
+  background: #fff0f5;
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(200, 100, 120, 0.2);
+}
+
+.booking h1 {
+  text-align: center;
+  color: #cc3366;
+  margin-bottom: 2rem;
+}
+
+.booking form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.booking input,
+.booking select {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.booking button {
+  background-color: #ff99aa;
+  color: white;
+  border: none;
+  padding: 0.9rem;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.booking button:hover {
+  background-color: #ff6f91;
+}

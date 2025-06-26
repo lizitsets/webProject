@@ -1,0 +1,22 @@
+/* src/components/ServiceCard.css */
+.service-card {
+  background-color: #ffeef2;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.service-card:hover {
+  transform: scale(1.03);
+}
+
+.service-card h3 {
+  color: #cc3366;
+}
+
+.service-card p {
+  margin: 8px 0;
+  font-size: 15px;
+}

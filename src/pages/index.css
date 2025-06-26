@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .header, .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .booking, .contact-page, .about-page {
+    padding: 1rem;
+  }
+
+  .service-card {
+    padding: 15px;
+  }
+
+  .gallery-grid img {
+    height: 150px;
+  }
+}
